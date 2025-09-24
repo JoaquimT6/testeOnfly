@@ -1,0 +1,16 @@
+{
+  "name": "n8n-custom-extensions",
+  "private": true,
+  "description": "Local holder for custom/community nodes",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@onfly/random-node": "file:../../../random-node/onfly-random-node-0.1.0.tgz"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": ""
+}

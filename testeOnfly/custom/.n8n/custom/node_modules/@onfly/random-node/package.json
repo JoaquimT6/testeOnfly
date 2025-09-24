@@ -1,0 +1,36 @@
+{
+  "name": "@onfly/random-node",
+  "version": "0.1.0",
+  "description": "n8n Custom Node - Random (True Random Number Generator via random.org)",
+  "author": "Candidato Recruta Onfly",
+  "license": "MIT",
+  "type": "commonjs",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "clean": "rimraf dist",
+    "test": "node --test tests/integration.cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "n8n-core": "^1.57.0",
+    "n8n-workflow": "^1.57.0"
+  },
+  "n8n": {
+    "nodes": [
+      "dist/Random.node.js"
+    ]
+  }
+}

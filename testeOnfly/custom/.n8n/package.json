@@ -1,0 +1,9 @@
+{
+  "name": "n8n-custom-nodes",
+  "private": true,
+  "description": "Custom nodes for n8n",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@onfly/random-node": "file:../../random-node/onfly-random-node-0.1.0.tgz"
+  }
+}
