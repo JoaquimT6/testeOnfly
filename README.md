@@ -260,7 +260,7 @@ $env:MIN="10"; $env:MAX="20"; npm run test
 6. `docker compose restart n8n`
 7. Abrir http://localhost:5678 e testar o node **Random**
 
-> Opcional: incluir um workflow de exemplo exportado em `examples/random-demo.json` e uma captura de tela no README.
+
 
 ---
 
